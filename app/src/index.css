@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Cores 
-#751C17
-#F7817B
-#F53B31
-#753E3B
-#C22F27
+#F2F2F2
+#BFBFBF
+#8C8C8C
+#404040
+#0D0D0D
+#F7F3E7 - Off white
 */
 
 
@@ -25,7 +27,7 @@ nav {
     height: 2.5rem;
     position: fixed;
 
-    background-color: rgb(24, 25, 34);
+    background-color: #0D0D0D;
     padding-top: 1.5rem;
     width: 100vw;
 
@@ -33,12 +35,13 @@ nav {
 }
 
 #title {
-    color: white;
+    color: #F2F2F2;
     text-decoration: none;
     font-size: 2.4rem;
     margin-left: 10rem;
     position: absolute;
     bottom: 1rem;
+    letter-spacing: 1.5px;
 }
 
 #title:hover {
@@ -59,11 +62,11 @@ nav {
 
 .navList > li > a {
     text-decoration: none;
-    color: white;
+    color: #F2F2F2;
 }
 
 .navList > li > a:hover {
-    border-bottom: 2px white solid;
+    border-bottom: 2px #F2F2F2 solid;
     padding: 6px;
     border-radius: 10px;
 
@@ -84,11 +87,11 @@ main > section {
 }
 
 #sobre {
-    background-color: lightblue;
+    background-color: #F7F3E7;
 }
 
 #participantes {
-    background-color: lightgreen;
+    background-color: #F7F3E7;
 }
 
 #projeto {
@@ -97,12 +100,14 @@ main > section {
 
 /* Main */
 
+/* Sobre */
+
 .text_sobre {
 
     height: 10rem;
     width: 60rem;
     font-size: 1.3rem;
-    background-color: lightblue;
+    background-color: #F7F3E7;
     text-align: justify;
     padding: 6rem;
     letter-spacing: 1px;
@@ -122,4 +127,22 @@ main > section {
     border-bottom: 1px black solid;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+/* Participantes */
+
+#participantes > h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: .2rem;
+    
+    position: relative;
+    top: 5rem;
+    text-transform: uppercase;
+}
+
+#img_participantes {
+    width: 93%;
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
