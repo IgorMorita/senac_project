@@ -131,18 +131,35 @@ main > section {
 
 /* Participantes */
 
-#participantes > h1 {
-    text-align: center;
-    font-size: 2.3rem;
+#participantes > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 14vh;
+}
+
+#participantes > div > h1 {
+    font-size: 3rem;
     letter-spacing: .2rem;
-    
-    position: relative;
-    top: 5rem;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #img_participantes {
-    width: 93%;
-    margin-left: 3rem;
-    margin-top: 1rem;
+    width: 40%;
+    margin-left: 34rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.uplist_people {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    gap: 4rem;
+    justify-content: center;
+
+    align-items: flex-end;
+    height: 10vh;
 }
