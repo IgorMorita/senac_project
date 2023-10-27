@@ -163,3 +163,15 @@ main > section {
     align-items: flex-end;
     height: 10vh;
 }
+
+.downlist_people{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    gap: 5rem;
+    justify-content: center;
+
+    align-items: flex-end;
+    height: 10vh;
+}
