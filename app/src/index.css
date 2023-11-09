@@ -193,3 +193,12 @@ main > section {
 #participantes_func {
     background-color: #F7F3E7;
 }
+
+.img_func {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 40rem;
+
+    display: flex;
+    margin-left: 2rem;
+}
