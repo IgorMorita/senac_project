@@ -120,10 +120,14 @@ main > section {
     justify-content: center;
     margin: auto;
     padding: 10px;
-
+    
 }   
 
+#img_sobre_tenis{
+    width: 15rem;
+    margin: auto;
 
+}
 
 
 
