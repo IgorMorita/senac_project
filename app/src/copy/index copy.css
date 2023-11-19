@@ -48,6 +48,7 @@ body, html{
 
 .navbar-links li{
 	list-style: none;
+	text-align: center;
 }
 
 .navbar-links li a{
@@ -68,6 +69,7 @@ body, html{
 	justify-self: center;
 	transform: scale(1.5);
 	padding: 20px;
+	transition: .3s;
 }
 
 .logo:hover{
@@ -177,8 +179,12 @@ body, html{
 .card {
 	display: flex;
 	margin: auto;
-	padding: 20px;
-	justify-content: space-around;
+	padding: 20px;	
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+	max-width: 700px;
 }
 
 
@@ -189,6 +195,10 @@ body, html{
 	
 }
 
+.about{
+	margin: auto;
+	text-align: justify;
+}
 
 
 
@@ -226,4 +236,16 @@ body, html{
 	.navbar-links.active{
 		display: flex;
 	}
+	
+	.card{
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
+		align-items: center;
+	}
+
+	.parallax-effect > h1{
+		padding-top: 25vh;
+	}
+
 }
