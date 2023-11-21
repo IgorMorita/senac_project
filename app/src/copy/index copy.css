@@ -29,6 +29,7 @@ body, html{
 	align-items: center;
 	background-color: #212121;
 	color: #f8f8f8;
+	
 }
 
 .project-title{
@@ -212,6 +213,20 @@ body, html{
 	width: 24rem;
 }
 
+.dados-resultados{
+	margin: auto;
+	display: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	text-align: justify;
+}
+
+h3{
+	margin: auto;
+	text-align: center;
+}
 
 /* Responsividade */
 
