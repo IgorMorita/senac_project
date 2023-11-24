@@ -284,4 +284,9 @@ h3{
 		
 
 	}
+
+	.dados-resultados{
+		padding: 20px;
+		text-align: justify;
+	}
 }
